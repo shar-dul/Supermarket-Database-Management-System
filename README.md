@@ -9,7 +9,7 @@ The system is designed to manage the day-to-day operations and processes of a su
 + Can add product information like Name, description, price and quantity in stock.
 + Can add details of all sales transactions made by the supermarket including specific information such as the respective customer associated with each sale and the corresponding employee responsible for making the sale.
 + Can add details of all purchases of products made by the supermarket including the supplier details that supplied the respective product.
-+ Can generate reports of various aspects of the supermarkets' functioning using the **Operations_report.sql** file.
++ Can generate a report of various aspects of the supermarkets' functioning using the **Operations_report.sql** file.
 
 ### Tables created:
 + product(**Prod_id**, ProdName, ProdDescription, SellPrice, Quantity)
@@ -32,3 +32,8 @@ The system is designed to manage the day-to-day operations and processes of a su
 + The 1NF is guaranteed because every attribute in every table is atomic, i.e., has only one value.
 + The 2NF is guaranteed by the fact that primary keys are chosen such that they're always unique, which shows that there are no partial dependencies.
 + The 3NF is maintained as there are no transitive dependencies. The primary key alone can determine the row table selected.
+
+### Important:
++ **Tables_&_data.sql** file contains code to make all the above mentioned tables and adds sample data into these tables.
++ **Query_implementation.sql** file contains some queries to test basic operations of the database system.
++ **Operations_report.sql** file contains some queries to generate a report on the supermarkets' performance
