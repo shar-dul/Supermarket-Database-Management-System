@@ -1,4 +1,4 @@
-# Supermarket-DataBase-Management-System
+# Supermarket-Database-Management-System
 The system is designed to manage the day-to-day operations and processes of a supermarket. The database schema of the system consists of different tables such as product, sales, purhcases, employee, customer, and supplier. Each of these tables holds the necessary information that is required for the smooth operation of the supermarket.
 
 The system provides an interface that allows you to manage and view the data efficiently. One can access and update customer/emloyee/supplier information and purchase/make a sale of products, and generate a report(using functions/procedures/triggers). 
